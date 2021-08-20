@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#firstbody {
+
+
+
+    width: 100vw;
+    height: 780px;
+    background-image: linear-gradient(lightblue 70%, green)
+}
+
+#bignav {
+    display: flex;
+    width: 100vw;
+    height: 130px;
+
+}
+
+#rightnav {
+    width: 370px;
+}
+
+#rightnav img {
+    height: 100px;
+    width: 110px;
+    border: 2px solid red;
+    margin: 8px 10px;
+    border-radius: 50px;
+}
+
+
+#midnav ul {
+    display: flex;
+    text-decoration: none;
+}
+
+
+#midnav ul li {
+    list-style: none;
+    font-size: 2rem;
+    margin: 40px 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#midnav ul li a {
+    color: white;
+    display: block;
+
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+#midnav ul li a:hover {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+
+#btn1 {
+    width: 10%;
+    height: 40px;
+    position: absolute;
+    top: 48px;
+    right: 30px;
+    background-color: red;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#about {
+    text-decoration: underline;
+
+
+}
+
+#who {
+    width: 100vw;
+    height: 100px;
+}
+
+#we {
+    display: block;
+    width: 33%;
+    margin: auto;
+    font-size: 3rem;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+
+
+#cont1 {
+    position: relative;
+    border: 2px solid red;
+    height: 500px;
+    width: 500px;
+    left: 900px;
+    border-radius: 400px;
+}
+
+#img1 {
+    position: relative;
+    border: 2px solid red;
+    height: 500px;
+    width: 500px;
+    left: 80px;
+    top: -500px;
+
+}
+
+#secondbody {
+
+    width: 100vw;
+    height: 780px;
+    background-image: linear-gradient(lightblue 70%, green)
+}
+
+
+#box1 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 90px;
+    border-radius: 400px;
+}
+
+#box2 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 160px;
+    top: 70px;
+    border-radius: 400px;
+}
+
+#box3 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    border-radius: 400px;
+
+}
+
+#para2 {
+    position: relative;
+    left: 110px;
+    top: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(4, 70, 70);
+}
+
+#inbox {
+    position: relative;
+
+    height: 320px;
+    width: 350px;
+    top: 60px;
+    left: 70px;
+}
+
+#secondimg {
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 1000px;
+    top: -500px;
+}
+
+#secondimg img {
+    position: relative;
+    top: -100px;
+    left: -200px;
+    height: 700px;
+    width: 700px;
+}
+
+#thirdbody {
+    width: 100vw;
+    height: 780px;
+    background-image: linear-gradient(lightblue 70%, green);
+
+}
+
+
+#box4 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 850px;
+    top: 90px;
+    border-radius: 400px;
+
+}
+
+
+#box5 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 1260px;
+    top: 70px;
+    border-radius: 400px;
+
+}
+
+
+#box6 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 1360px;
+    top: 70px;
+    border-radius: 400px;
+
+}
+
+#para4 {
+    position: relative;
+    left: 110px;
+    top: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(4, 70, 70);
+
+}
+
+#inbox1 {
+    position: relative;
+
+    height: 320px;
+    width: 350px;
+    top: 60px;
+    left: 70px;
+}
+
+
+#thirdimg {
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: -500px;
+
+}
+
+#thirdimg img {
+    position: relative;
+    top: -100px;
+    left: -200px;
+    height: 700px;
+    width: 700px;
+
+}
+
+#fourthbody {
+    width: 100vw;
+    height: 780px;
+    background-image: linear-gradient(lightblue 70%, green);
+
+}
+
+#box7 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 90px;
+    border-radius: 400px;
+
+
+
+}
+
+#box8 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 160px;
+    top: 70px;
+    border-radius: 400px;
+
+
+
+}
+
+#para6 {
+    position: relative;
+    left: 150px;
+    top: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(4, 70, 70);
+
+}
+
+
+#box9 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    border-radius: 400px;
+
+
+}
+
+#inbox2 {
+    position: relative;
+
+    height: 320px;
+    width: 350px;
+    top: 60px;
+    left: 70px;
+
+}
+
+
+#fourthimg {
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 1000px;
+    top: -500px;
+
+}
+
+#fourthimg img {
+    position: relative;
+    top: -100px;
+    left: -200px;
+    height: 700px;
+    width: 700px;
+
+
+}
+
+#fifthbody {
+    width: 100vw;
+    height: 780px;
+    background-image: linear-gradient(lightblue 70%, green);
+
+}
+
+
+#box10 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 850px;
+    top: 90px;
+    border-radius: 400px;
+
+}
+
+
+#box11 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 310px;
+    top: 150px;
+    border-radius: 400px;
+
+}
+
+
+#box12 {
+    border: 3px solid rgb(52, 128, 131);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 390px;
+    top: 160px;
+    border-radius: 400px;
+
+}
+
+#para7 {
+    position: relative;
+    left: 110px;
+    top: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(4, 70, 70);
+
+}
+
+#inbox3 {
+    position: relative;
+
+    height: 320px;
+    width: 350px;
+    top: 60px;
+    left: 70px;
+}
+
+
+#fifthimg {
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: -500px;
+
+}
+
+#fifthimg img {
+    position: relative;
+    top: -100px;
+    left: -1000px;
+    height: 700px;
+    width: 700px;
+
+}
+
+
+#final {
+    width: 100vw;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+
+#bye {
+    position: relative;
+    top: 100px;
+    left: 65px;
+    font-size: 3.5rem;
+    color: rgb(13, 87, 7);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
