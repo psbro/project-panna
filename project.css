@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#firstbody {
+
+
+
+    width: 100vw;
+    height: 780px;
+    background-color: rgb(8, 114, 117);
+}
+
+#bignav {
+    display: flex;
+    width: 100vw;
+    height: 130px;
+
+}
+
+#rightnav {
+    width: 370px;
+}
+
+#rightnav img {
+    height: 100px;
+    width: 110px;
+    border: 2px solid red;
+    margin: 8px 10px;
+    border-radius: 50px;
+}
+
+
+#midnav ul {
+    display: flex;
+    text-decoration: none;
+}
+
+
+#midnav ul li {
+    list-style: none;
+    font-size: 2rem;
+    margin: 40px 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#midnav ul li a {
+    color: white;
+    display: block;
+
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+#midnav ul li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+#btn1 {
+    width: 10%;
+    height: 40px;
+    position: absolute;
+    top: 48px;
+    right: 30px;
+    background-color: red;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#rightdownnav {
+
+    width: 40vw;
+    height: 520px;
+    margin: 2px 80px;
+}
+
+
+#dekho {
+    font-size: 7.5rem;
+    color: white;
+
+}
+
+#apna {
+    font-size: 8rem;
+    color: white;
+
+
+}
+
+#panna {
+    font-size: 8rem;
+    color: white;
+
+
+}
+
+
+#bottomfirst {
+
+    width: 40vw;
+    height: 80px;
+    margin: 2px 70px;
+    display: flex;
+}
+
+
+#insta {
+    height: 70px;
+    width: 80px;
+    margin: 4px 20px;
+
+}
+
+#fb {
+    height: 70px;
+    width: 80px;
+    margin: 4px 20px;
+
+}
+
+#email {
+    height: 70px;
+    width: 80px;
+    margin: 4px 20px;
+
+}
+
+#btn2 {
+    position: absolute;
+    left: 170px;
+    background-color: red;
+    border-radius: 30px;
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    top: 570px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+#leftdownnav {
+    position: absolute;
+    top: 200px;
+    left: 850px;
+   
+    height: 500px;
+    width: 500px;
+}
+
+
+#secondbody {
+    width: 100vw;
+    height: 730px;
+
+}
+
+
+#about {
+
+
+    display: block;
+    width: 33%;
+
+    margin: auto;
+    font-size: 8rem;
+    color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#aboutsec {
+
+    width: 100vw;
+    height: 240px;
+
+}
+
+#cont {
+    border: 2px solid red;
+    position: absolute;
+    width: 33%;
+    height: 500px;
+    right: 10px;
+    top: 960px;
+    background-color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#image {
+   
+    position: absolute;
+    width: 500px;
+    height: 33%;
+    left: 10px;
+    top: 960px;
+
+}
+
+#image img{
+    height: 500px;
+    width: 500px;
+}
+
+#thirdbody {
+    width: 100vw;
+    height: 730px;
+
+}
+
+
+#contri {
+
+    display: block;
+    width: 66%;
+
+    margin: 4px 390px;
+    font-size: 6.5rem;
+    color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#cont2 {
+    border: 2px solid red;
+    position: absolute;
+    width: 33%;
+    height: 300px;
+    right: 10px;
+    top: 1860px;
+    background-color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+#image2 {
+    
+    position: absolute;
+    width: 33%;
+    height: 300px;
+    left: 10px;
+    top: 1860px;
+
+}
+
+#image2 img{
+    height: 300px;
+    width: 500px;
+}
+
+#gallery {
+
+    display: block;
+    width: 66%;
+
+    margin: 4px 430px;
+    font-size: 6.5rem;
+    color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#fourthbody {
+    width: 100vw;
+    height: 930px;
+}
+
+
+#galcont .box1 {
+   
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    left: 10px;
+    top: 2500px;
+
+}
+
+
+
+
+#galcont .box2 {
+    
+    position: absolute;
+    width: 33%;
+    height: 300px;
+    left: 510px;
+    top: 2500px;
+
+}
+
+
+#galcont .box3 {
+   
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    left: 1070px;
+    top: 2500px;
+
+}
+
+#galcont .box4 {
+    
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    left: 1070px;
+    top: 2850px;
+
+}
+
+#galcont .box5 {
+    
+    position: absolute;
+    width: 33%;
+    height: 300px;
+    left: 510px;
+    top: 2850px;
+
+}
+
+#galcont .box6 {
+   
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    left: 10px;
+    top: 2850px;
+
+}
+
+
+#fifthbody {
+    width: 100vw;
+    height: 930px;
+}
+
+#team {
+
+    display: block;
+    width: 66%;
+
+    margin: 4px 430px;
+    font-size: 6.5rem;
+    color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#ourteam .mem1 {
+    border: 2px solid red;
+    position: absolute;
+    width: 20%;
+    height: 350px;
+    left: 1070px;
+    top: 3450px;
+
+}
+
+#ourteam .mem2 {
+    border: 2px solid red;
+    position: absolute;
+    width: 20%;
+    height: 350px;
+    left: 750px;
+    top: 3450px;
+
+}
+
+#ourteam .mem3 {
+    border: 2px solid red;
+    position: absolute;
+    width: 20%;
+    height: 350px;
+    left: 420px;
+    top: 3450px;
+
+}
+
+#ourteam .mem4 {
+    border: 2px solid red;
+    position: absolute;
+    width: 20%;
+    height: 350px;
+    left: 80px;
+    top: 3450px;
+
+}
+
+
+#names {
+    display: flex;
+
+}
+
+#nam1 {
+    margin: 400px 130px;
+
+}
+
+#nam2 {
+    margin: 50px 50px;
+
+}
+
+#nam3 {
+    margin: 50px 50px;
+
+}
+
+#nam4 {
+    margin: 50px 50px;
+
+}
+
+#lastbody {
+    width: 100vw;
+    height: 930px;
+
+
+
+}
+
+#message {
+
+    display: block;
+    width: 33%;
+
+    margin: auto;
+    font-size: 8rem;
+    color: rgb(8, 114, 117);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+#msg .boxes1 {
+    border: 2px solid red;
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    left: 30px;
+    top: 4500px;
+    border-radius: 70px;
+    background-color: rgb(114, 233, 233);
+
+}
+
+#msgs1 {
+    position: relative;
+    width: 70%;
+    left: 50px;
+}
+
+#shin {
+    position: relative;
+    display: block;
+    width: 33%;
+    margin: auto;
+    top: 20px;
+}
+
+#msg .boxes2 {
+    border: 2px solid red;
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    left: 550px;
+    top: 4500px;
+    border-radius: 70px;
+    background-color: rgb(114, 233, 233);
+
+}
+
+#msg2 {
+    position: relative;
+
+    width: 70%;
+    left: 50px;
+}
+
+#dora {
+    position: relative;
+    display: block;
+    width: 33%;
+    margin: auto;
+    top: 30px;
+}
+
+
+#msg .boxes3 {
+    border: 2px solid red;
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    left: 1050px;
+    top: 4500px;
+    border-radius: 70px;
+    background-color: rgb(114, 233, 233);
+
+}
+
+#msg3 {
+    position: relative;
+
+    width: 70%;
+    left: 50px;
+}
+
+#oggy {
+    position: relative;
+    display: block;
+    width: 33%;
+    margin: auto;
+    top: 30px;
+}
+
+#final{
+    width: 100vw;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+
+#bye{
+    position: relative;
+    top: 100px;
+    left: 65px;
+    font-size: 3.5rem;
+    color: rgb(13, 87, 7);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#leftdownnav img{
+    height: 500px;
+    width: 500px;
+}
+
+
+#gal1{
+    height: 300px;
+    width: 400px;
+
+}
+
+#gal2{
+    height: 300px;
+    width: 400px;
+
+}
+
+#gal3{
+    height: 300px;
+    width: 400px;
+
+}
+
+#gal4{
+    height: 300px;
+    width: 400px;
+
+}
+
+#gal5{
+    height: 300px;
+    width: 400px;
+
+}
+
+#gal6{
+    height: 300px;
+    width: 400px;
+
+}
+
+#modi{
+    height: 350px;
+    width: 300px;
+}
+
+#hitler{
+    height: 350px;
+    width: 300px;
+}
+#trump{
+    height: 350px;
+    width: 300px;
+}
+#obama{
+    height: 350px;
+    width: 300px;
+}
